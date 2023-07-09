@@ -24,11 +24,11 @@ This project is done solely on Jupyter Notebook and can be accessed using the fo
 
 * Clone the repository into your local directories or download the files.
 
-git clone https://github.com/<YourUsername>/<YourRepository>.git
+git clone https://github.com/[YourUsername]/[YourRepository].git
 
 * Navigate into the cloned repository.
 
-cd <YourRepository>
+cd [YourRepository]
 
 ## 2. Dependencies
 
