@@ -8,6 +8,10 @@ This project provides a portfolio optimizer model that allows asset/portfolio ma
 
 This project was actually done for the purpose of my school module where we are required to do up an individual project that involves using linear optimization to resolve a business problem. Being someone from a finance/accounting background, I thought of using linear optimization to improve the efficiency of coming up with allocation of assets and bonds to get an optimized portfolio for clients depending on their risk appetite and their expected returns.
 
+In this case, WealthisHealth Pte. Ltd. is a fictitious company that will roleplay as the client in this project.
+
+Gurobi solver was originally used for the optimization model for the purpose of school project. Now that I put it up on my github public repository, I editted the code and changed it to using ORT-Tool, an open-source solver, so the portfolio optimizer can be used anytime.
+
 ## Features
 
 - Linear-optimization model that can be utilized to get optimized allocation of assets.
@@ -24,11 +28,11 @@ This project is done solely on Jupyter Notebook and can be accessed using the fo
 
 * Clone the repository into your local directories or download the files.
 
-git clone https://github.com/<YourUsername>/<YourRepository>.git
+git clone https://github.com/[YourUsername]/[YourRepository].git
 
 * Navigate into the cloned repository.
 
-cd <YourRepository>
+cd [YourRepository]
 
 ## 2. Dependencies
 
@@ -60,6 +64,23 @@ This will open a new tab on your default web browser, showing a list of notebook
 * Alternatively, you can run the whole notebook in a single step by clicking on the menu Cell -> Run All.
 
 Please note that some cells may rely on the results of earlier cells. Therefore, if you're running cells individually, make sure to run them in order.
+
+## 6. Using the Portfolio Optimizer
+
+* After running the whole notebook, you will be stopped at the selection segment where you are prompted for the amount to invest. Key in the amount that you wish to invest.
+
+* Next, key in the portfolio style you wish to adopt. There are 5 to chose from:
+1. High-Roller
+2. Aggressive
+3. Balanced
+4. Conservative
+5. Gradual Growth
+
+* Subsequently, key in the maximum bond default score. Ensure that the amount key in is 1.0 or more.
+
+* Lastly, key in the max porportion allowed for each asset, between 0 to 1 inclusive.
+
+* The optimizer will run and results will be shown in a data table at the Optimiser section.
 
 
 # Credits
