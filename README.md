@@ -49,6 +49,7 @@ conda env create -f environment.yml
 ## 3. Run Jupyter Notebook
 
 * Start the Jupyter Notebook server by running this command in your terminal:
+
 jupyter notebook
 
 This will open a new tab on your default web browser, showing a list of notebooks in the project.
