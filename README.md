@@ -28,11 +28,15 @@ This project is done solely on Jupyter Notebook and can be accessed using the fo
 
 * Clone the repository into your local directories or download the files.
 
+```bash
 git clone https://github.com/[YourUsername]/[YourRepository].git
+```
 
 * Navigate into the cloned repository.
 
+```bash
 cd [YourRepository]
+```
 
 ## 2. Dependencies
 
@@ -40,17 +44,23 @@ The dependencies for this project are listed in the requirements.txt file locate
 
 * To install these dependencies, you can use pip by running the following command in your terminal:
 
+```bash
 pip install -r requirements.txt
+```
 
 * For conda environments, you can use the environment.yml file with the following command:
 
+```bash
 conda env create -f environment.yml
+```
 
 ## 3. Run Jupyter Notebook
 
 * Start the Jupyter Notebook server by running this command in your terminal:
 
+```bash
 jupyter notebook
+```
 
 This will open a new tab on your default web browser, showing a list of notebooks in the project.
 
